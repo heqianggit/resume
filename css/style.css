@@ -187,7 +187,7 @@ a {
 @media screen and (max-width: 720px) {
   .content-hd .avator {
     width: 150px;
-    height: 150px;
+    height: 200px;
   }
 }
 .content-hd .name {
