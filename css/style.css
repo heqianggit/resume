@@ -75,23 +75,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .icon-github:before {
   content: "\e69f";
 }
-
-.icon-link:before {
-  content: "\e609";
-}
-
-/* .icon-homepage:before {
-  content: "\e615";
-}
- */
 .icon-email:before {
   content: "\e63b";
 }
-
-.icon-dot:before {
-  content: "\e600";
-}
-
 .kill-ie {
   margin: 0;
   padding: .5em 0;
@@ -130,23 +116,11 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
-.last-modified {
-  position: absolute;
-  top: 30px;
-  left: 50%;
-  width: 1000px;
-  color: #bbb;
-  margin-left: -500px;
-  font-size: 12px;
-  text-align: right;
-}
 @media screen and (max-width: 1024px) {
   .last-modified {
     display: none;
   }
 }
-
 .content {
   position: relative;
   width: 1024px;
@@ -475,9 +449,6 @@ a {
   overflow: hidden;
   font-weight: 500;
 }
-.content-bd .item-hd .iconfont {
-  color: #00b38a;
-}
 .content-bd .item-hd .item-time {
   display: inline-block;
   float: left;
@@ -551,14 +522,6 @@ a {
   display: inline;
   line-height: 18px;
 }
-.content-bd .practice .item-time {
-  width: 32%;
-}
-@media screen and (max-width: 720px) {
-  .content-bd .practice .item-time {
-    width: 100%;
-  }
-}
 .content-bd .prize .item-hd {
   padding: 12px 0 0;
 }
@@ -569,65 +532,6 @@ a {
   .content-bd .prize .item-time {
     width: 100%;
   }
-}
-
-.btn {
-  display: inline-block;
-  padding: 0 5px;
-  border: 1px solid #00b38a;
-  border-radius: 3px;
-  color: #00b38a;
-  font-family: Menlo, "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-}
-.btn:hover {
-  color: #fff;
-  background-color: #00b38a;
-}
-
-.pdf {
-  display: inline-block;
-  position: fixed;
-  z-index: 10;
-  bottom: 6px;
-  left: 50%;
-  margin-left: 520px;
-  padding: 0 8px;
-  border-radius: 3px;
-  color: #fff;
-  font-size: 16px;
-  line-height: 26px;
-  background-color: #00b38a;
-}
-@media screen and (max-width: 1246px) {
-  .pdf {
-    left: auto;
-    right: 8px;
-    margin-left: 0;
-  }
-}
-
-footer {
-  text-align: center;
-}
-footer .footer-link {
-  display: inline-block;
-  color: #d1d1d1;
-  margin-bottom: 25px;
-}
-@media screen and (max-width: 1024px) {
-  footer .footer-link {
-    margin-top: 25px;
-  }
-}
-footer .footer-link .icon-link {
-  color: #d1d1d1;
-  font-size: 16px;
-}
-footer.print-footer {
-  display: none;
 }
 
 ::-webkit-scrollbar {
@@ -697,25 +601,5 @@ footer.print-footer {
 
   .content .print-hidden {
     display: none;
-  }
-
-  .pdf {
-    display: none;
-  }
-
-  footer.github-footer {
-    display: none;
-  }
-
-  footer.print-footer {
-    display: block;
-  }
-
-  footer.print-footer .footer-link {
-    position: absolute;
-    left: 45px;
-    bottom: 25px;
-    color: #c0c0c0;
-    display: inline-block;
   }
 }
