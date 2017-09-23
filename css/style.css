@@ -281,10 +281,10 @@ a {
 .content-hd .skill-level .i-js .out {
   flex: 3.5;
 }
-.content-hd .skill-level .i-sass .in {
+.content-hd .skill-level .i-jquery .in {
   flex: 6;
 }
-.content-hd .skill-level .i-sass .out {
+.content-hd .skill-level .i-jquery .out {
   flex: 4;
 }
 .content-hd .skill-level .i-ps .in {
