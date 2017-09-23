@@ -351,11 +351,6 @@ a {
 .content-hd .contact ul > li > a:hover {
   color: #999;
 }
-@media screen and (max-width: 1024px) {
-  .content-hd .contact ul > li > a .contact-link {
-    display: none;
-  }
-}
 .content-hd .contact ul > li > a .iconfont {
   margin-left: 5px;
 }
