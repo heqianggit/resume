@@ -363,7 +363,7 @@ a {
 .content-bd {
   display: flex;
   min-height: 200px;
-  flex-flow: row wrap;
+  flex-flow: row-reverse wrap;
   overflow: hidden;
 }
 .content-bd .content-right {
